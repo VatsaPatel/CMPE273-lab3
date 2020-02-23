@@ -1,0 +1,15 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+flask = "==1.1.1"
+graphene = "==2.1.8"
+flask-graphql = "==2.0.1"
+ariadne = "==0.10.0"
+
+[requires]
+python_version = "3.8"
